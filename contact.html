@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><button  class="topmenu">Home</button></a></li>
+                <li><a href="cattle-registration.html"><button class="topmenu">Cattle Registration</button></a></li>
+                <li><a href="cattle-tracking.html"><button class="topmenu">Tracking</button></a></li>
+                <li><a href="cattle-health.html"><button class="topmenu">Cattle Health</button></a></li>
+                <li><a href="cattle-owners.html"><button class="topmenu">Owners</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Contact Information</h2>
+        <p>If you have any questions or inquiries, please feel free to reach out to us using the following contact information:</p>
+        <ul>
+            <li>Email: <a href="mailto:info@cattlemanagement.com">info@cattlemanagement.com</a></li>
+            <li>Phone: +1 (123) 456-7890</li>
+            <li>Address: 123 Cattle Ranch Road, Farmington, TX 12345</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact Form</h2>
+        <form action="submit_contact.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Cattle Management System</p>
+    </footer>
+</body>
+</html>

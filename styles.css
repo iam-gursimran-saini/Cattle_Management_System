@@ -1,0 +1,241 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,53,65,1) 21%, rgba(80,80,106,1) 44%, rgba(61,104,143,1) 62%, rgba(55,151,184,1) 76%, rgba(43,168,202,1) 85%, rgba(15,173,212,1) 88%, rgba(31,173,202,1) 100%);
+    margin: 0px;
+    padding:auto;
+}
+
+header {
+    color:rgb(1, 1, 0);
+    background-size: cover;
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav ul {
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.3);
+    text-align: center;
+    overflow: hidden;
+}
+
+nav ul li {
+    color:#fff;
+    display:inline-block;
+    margin: 15px;
+    width: auto;
+}
+
+.topmenu:hover {
+    color:#242323;
+    font-weight:bold;
+    text-decoration: underline;
+    text-shadow: #242323;
+    background-color:grey
+}
+.intro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.back {
+    background-color: #242323;
+    color: rgb(90, 198, 240);
+    text-align: center;
+    border-radius: 15px;
+
+}
+section {
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fffcfc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+.center {
+    border-radius: 30px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+div.main{
+ margin: 25px auto 0px auto;
+width: 400px;
+font-size: 18px;
+border-radius: 10px;
+border: 1px soid rgba(255,255,255,0.3);
+color: black;
+}
+
+h5{
+    text-align: center;
+    font-size:30px;
+}
+
+.registration-form {
+    display:block;
+    width: 400px;
+    gap: 150px;
+    padding:auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.map-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.health-tips {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.tip {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tip h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.resources {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.resource {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.resource h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}

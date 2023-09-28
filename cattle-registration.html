@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cattle Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cattle Registration</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><button  class="topmenu">Home</button></a></li>
+                <li><a href="cattle-tracking.html"><button class="topmenu">Tracking</button></a></li>
+                <li><a href="cattle-owners.html"><button class="topmenu">Owners</button></a></li>
+                <li><a href="contact.html"><button class="topmenu">Contact Us</button></a></li>
+            </ul>
+        </nav>
+    </header>
+       
+    <section>
+    <div>
+        
+        <div class="main1">
+            <div class="Register">
+            <h5>Register Your Cattle</h5>
+            <section>
+                <div class="main">
+                <form class="registration-form">
+                <label for="cattleName">Cattle Name:</label>
+                <input type="text" id="cattleName" size="50"  name="cattleName" required>
+    
+                <label for="cattleBreed">Cattle Breed:</label>
+                <input type="text" id="cattleBreed" size="10" name="cattleBreed" required>
+    
+                <label for="ownerName">Owner's Name:</label>
+                <input type="text" id="ownerName" size="50" name="ownerName" required>
+    
+                <label for="ownerEmail">Owner's Email:</label>
+                <input type="email" id="ownerEmail" size="50" name="ownerEmail" required>
+    
+                <label for="cattleAge">Cattle Age:</label>
+                <input type="number" id="cattleAge" size="50" name="cattleAge" required>
+    
+                <label for="gpsId">GPS Id:</label>
+                <input type="number" id="gpsId" size="50"  name="gpsId" required>
+                
+                <label for="cattleHealth">Cattle Health:</label>
+                <textarea id="cattleHealth" name="cattleHealth" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+                </form>
+            </div>
+            </div>
+            </section>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Cattle Management System</p>
+    </footer>
+</body>
+</html>
